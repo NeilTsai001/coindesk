@@ -1,0 +1,282 @@
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Starting CoindeskApplication using Java 1.8.0_345 on LAPTOP-THIQNB8M with PID 23276 (C:\ibm\test\coindesk\target\classes started by NeilTsai in C:\ibm\test\coindesk)
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.SpringApplication:
+				No active profile set, falling back to 1 default profile: "default"
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat initialized with port(s): 8080 (http)
+2022-10-23 19:10:03 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting service [Tomcat]
+2022-10-23 19:10:03 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 19:10:03 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring embedded WebApplicationContext
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:
+				Root WebApplicationContext: initialization completed in 140 ms
+2022-10-23 19:10:03 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-23 - Starting...
+2022-10-23 19:10:03 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-23 - Start completed.
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration:
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/coindesk'
+2022-10-23 19:10:03 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 19:10:03 INFO  [restartedMain] org.hibernate.dialect.Dialect:
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-23 19:10:03 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:10:03 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:
+				LiveReload server is running on port 35729
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Started CoindeskApplication in 0.306 seconds (JVM running for 31610.808)
+2022-10-23 19:10:03 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:
+				Condition evaluation unchanged
+2022-10-23 19:15:20 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-23 19:15:20 INFO  [Thread-93] org.apache.juli.logging.DirectJDKLog:
+				Stopping service [Tomcat]
+2022-10-23 19:15:20 INFO  [Thread-93] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:15:20 INFO  [Thread-93] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-23 - Shutdown initiated...
+2022-10-23 19:15:20 INFO  [Thread-93] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-23 - Shutdown completed.
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Starting CoindeskApplication using Java 1.8.0_345 on LAPTOP-THIQNB8M with PID 23276 (C:\ibm\test\coindesk\target\classes started by NeilTsai in C:\ibm\test\coindesk)
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.SpringApplication:
+				No active profile set, falling back to 1 default profile: "default"
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat initialized with port(s): 8080 (http)
+2022-10-23 19:15:21 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting service [Tomcat]
+2022-10-23 19:15:21 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 19:15:21 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring embedded WebApplicationContext
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:
+				Root WebApplicationContext: initialization completed in 131 ms
+2022-10-23 19:15:21 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-24 - Starting...
+2022-10-23 19:15:21 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-24 - Start completed.
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration:
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/coindesk'
+2022-10-23 19:15:21 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 19:15:21 INFO  [restartedMain] org.hibernate.dialect.Dialect:
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-23 19:15:21 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:15:21 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:
+				LiveReload server is running on port 35729
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Started CoindeskApplication in 0.269 seconds (JVM running for 31928.886)
+2022-10-23 19:15:21 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:
+				Condition evaluation unchanged
+2022-10-23 19:15:37 INFO  [http-nio-8080-exec-2] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-23 19:15:37 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet:
+				Initializing Servlet 'dispatcherServlet'
+2022-10-23 19:15:37 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet:
+				Completed initialization in 1 ms
+2022-10-23 19:15:37 INFO  [http-nio-8080-exec-2] com.cathay.coindesk.controller.CoindeskController:
+				Method:getCoindesk
+2022-10-23 19:16:31 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-23 19:16:31 INFO  [Thread-99] org.apache.juli.logging.DirectJDKLog:
+				Stopping service [Tomcat]
+2022-10-23 19:16:31 INFO  [Thread-99] org.apache.juli.logging.DirectJDKLog:
+				Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-23 19:16:31 INFO  [Thread-99] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:16:31 INFO  [Thread-99] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-24 - Shutdown initiated...
+2022-10-23 19:16:31 INFO  [Thread-99] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-24 - Shutdown completed.
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Starting CoindeskApplication using Java 1.8.0_345 on LAPTOP-THIQNB8M with PID 23276 (C:\ibm\test\coindesk\target\classes started by NeilTsai in C:\ibm\test\coindesk)
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.SpringApplication:
+				No active profile set, falling back to 1 default profile: "default"
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat initialized with port(s): 8080 (http)
+2022-10-23 19:16:31 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting service [Tomcat]
+2022-10-23 19:16:31 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 19:16:31 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring embedded WebApplicationContext
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:
+				Root WebApplicationContext: initialization completed in 118 ms
+2022-10-23 19:16:31 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-25 - Starting...
+2022-10-23 19:16:31 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-25 - Start completed.
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration:
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/coindesk'
+2022-10-23 19:16:31 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 19:16:31 INFO  [restartedMain] org.hibernate.dialect.Dialect:
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-23 19:16:31 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:16:31 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:
+				LiveReload server is running on port 35729
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Started CoindeskApplication in 0.236 seconds (JVM running for 31999.062)
+2022-10-23 19:16:31 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:
+				Condition evaluation unchanged
+2022-10-23 19:16:37 INFO  [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-23 19:16:37 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet:
+				Initializing Servlet 'dispatcherServlet'
+2022-10-23 19:16:37 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet:
+				Completed initialization in 1 ms
+2022-10-23 19:16:37 INFO  [http-nio-8080-exec-1] com.cathay.coindesk.controller.CoindeskController:
+				START:getCoindesk
+2022-10-23 19:16:37 INFO  [http-nio-8080-exec-1] com.cathay.coindesk.controller.CoindeskController:
+				SUCCESS:getCoindesk
+2022-10-23 19:17:54 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-23 19:17:54 INFO  [Thread-103] org.apache.juli.logging.DirectJDKLog:
+				Stopping service [Tomcat]
+2022-10-23 19:17:54 INFO  [Thread-103] org.apache.juli.logging.DirectJDKLog:
+				Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-23 19:17:54 INFO  [Thread-103] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:17:54 INFO  [Thread-103] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-25 - Shutdown initiated...
+2022-10-23 19:17:54 INFO  [Thread-103] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-25 - Shutdown completed.
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Starting CoindeskApplication using Java 1.8.0_345 on LAPTOP-THIQNB8M with PID 23276 (C:\ibm\test\coindesk\target\classes started by NeilTsai in C:\ibm\test\coindesk)
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.SpringApplication:
+				No active profile set, falling back to 1 default profile: "default"
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat initialized with port(s): 8080 (http)
+2022-10-23 19:17:54 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting service [Tomcat]
+2022-10-23 19:17:54 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 19:17:54 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring embedded WebApplicationContext
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:
+				Root WebApplicationContext: initialization completed in 116 ms
+2022-10-23 19:17:54 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-26 - Starting...
+2022-10-23 19:17:54 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-26 - Start completed.
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration:
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/coindesk'
+2022-10-23 19:17:54 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 19:17:54 INFO  [restartedMain] org.hibernate.dialect.Dialect:
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-23 19:17:54 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:17:54 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:
+				LiveReload server is running on port 35729
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Started CoindeskApplication in 0.235 seconds (JVM running for 32082.415)
+2022-10-23 19:17:54 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:
+				Condition evaluation unchanged
+2022-10-23 19:17:57 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-23 19:17:57 INFO  [Thread-107] org.apache.juli.logging.DirectJDKLog:
+				Stopping service [Tomcat]
+2022-10-23 19:17:57 INFO  [Thread-107] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:17:57 INFO  [Thread-107] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-26 - Shutdown initiated...
+2022-10-23 19:17:57 INFO  [Thread-107] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-26 - Shutdown completed.
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Starting CoindeskApplication using Java 1.8.0_345 on LAPTOP-THIQNB8M with PID 23276 (C:\ibm\test\coindesk\target\classes started by NeilTsai in C:\ibm\test\coindesk)
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.SpringApplication:
+				No active profile set, falling back to 1 default profile: "default"
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:
+				Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat initialized with port(s): 8080 (http)
+2022-10-23 19:17:57 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting service [Tomcat]
+2022-10-23 19:17:57 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 19:17:57 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog:
+				Initializing Spring embedded WebApplicationContext
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:
+				Root WebApplicationContext: initialization completed in 106 ms
+2022-10-23 19:17:57 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-27 - Starting...
+2022-10-23 19:17:57 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-27 - Start completed.
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration:
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/coindesk'
+2022-10-23 19:17:57 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 19:17:57 INFO  [restartedMain] org.hibernate.dialect.Dialect:
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-23 19:17:57 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:17:57 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:
+				LiveReload server is running on port 35729
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:
+				Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger:
+				Started CoindeskApplication in 0.219 seconds (JVM running for 32085.282)
+2022-10-23 19:17:57 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:
+				Condition evaluation unchanged
+2022-10-23 19:18:10 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:
+				Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-10-23 19:18:10 INFO  [Thread-111] org.apache.juli.logging.DirectJDKLog:
+				Stopping service [Tomcat]
+2022-10-23 19:18:10 INFO  [Thread-111] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 19:18:10 INFO  [Thread-111] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-27 - Shutdown initiated...
+2022-10-23 19:18:10 INFO  [Thread-111] com.zaxxer.hikari.HikariDataSource:
+				HikariPool-27 - Shutdown completed.
